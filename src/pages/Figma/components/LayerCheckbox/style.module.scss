@@ -1,0 +1,24 @@
+.layer_checkbox {
+  margin: 10px 0px 0px 20px;
+
+  .layer_checkbox_address {
+    display: flex;
+    align-items: center;
+
+    span {
+      color: #fff;
+      margin-left: 10px;
+      font-size: 12px;
+    }
+
+    img {
+      height: 15px;
+      width: 15px;
+    }
+
+    .checked {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}

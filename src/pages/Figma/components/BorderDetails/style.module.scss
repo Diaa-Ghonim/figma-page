@@ -1,0 +1,129 @@
+.borderDetails {
+  padding: 15px 0px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  &:last-of-type {
+    border-bottom: none;
+  }
+  .borderDetailsheader {
+    display: flex;
+    align-items: center;
+
+    div {
+      color: #fff;
+      flex-grow: 1;
+    }
+    img {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+  }
+
+  .borderDetailsInputRange {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      width: 85%;
+      -webkit-appearance: none;
+      margin-right: 15px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 5px;
+      background-image: linear-gradient(#fff, #fff);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        // background: #fff;
+        background: url("../../../../assests/slider-icon.svg");
+        background-repeat: no-repeat;
+        background-position: cover;
+        // cursor: ew-resize;
+        cursor: pointer;
+        // box-shadow: 0 0 2px 0 #555;
+        // transition: background 0.3s ease-in-out;
+      }
+
+      &::-webkit-slider-runnable-track {
+        -webkit-appearance: none;
+        box-shadow: none;
+        border: none;
+        background: transparent;
+      }
+    }
+
+    .rangeValue {
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .borderDetailsActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .action {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      &:first-of-type {
+        color: #00a85c;
+      }
+      &:nth-of-type(2) {
+        color: #faae29;
+      }
+      &:nth-of-type(3) {
+        color: #0a8cc8;
+      }
+
+      img {
+        width: 11px;
+        height: 15px;
+        margin-right: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+  .description {
+    color: rgba(255, 255, 255, 0.78);
+    padding: 10px 0px 5px;
+    font-size: 12px;
+  }
+
+  .tagsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    .tags {
+      display: flex;
+      align-items: center;
+      .tag {
+        font-size: 11px;
+        margin-right: 10px;
+        background-color: rgba(255, 255, 255, 0.12);
+        border-radius: 5px;
+        padding: 10px;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+
+    .downloadIcon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+    }
+  }
+}

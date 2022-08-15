@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  justify-content: space-between;
+  flex-direction: column;
+  padding-right: 10px;
+  .top_icons,
+  .bottom_icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar_icons {
+    img {
+      width: 35px;
+      height: 35px;
+      margin: 6px 5px 5px;
+    }
+  }
+}

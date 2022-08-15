@@ -1,0 +1,21 @@
+.layers_tree_list {
+  flex-grow: 1;
+  padding: 2px 15px;
+
+  .layers_header {
+    margin-bottom: 10px;
+
+    p {
+      font-weight: 700;
+      color: #fff;
+      margin: 0px;
+      margin-top: 5px;
+    }
+
+    span {
+      color: rgba(255, 255, 255, 0.5);
+
+      font-size: 12px;
+    }
+  }
+}

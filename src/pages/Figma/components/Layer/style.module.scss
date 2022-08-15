@@ -1,0 +1,27 @@
+.layer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 10px 0px;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  .layer_address {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+
+    span {
+      font-weight: 500;
+      color: #fff;
+      font-size: 14px;
+      flex-grow: 1;
+      margin-left: 5px;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
